@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main #txt{
+    font-family: 'Courier New';
+    color: rgb(0, 0, 0);
+    background: url(/imagens/sustentavel.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 100px;
+    margin-top: 40px;
+}
+   
+
+nav{
+    color: white;
+    background-color: tomato;
+    
+}
+
+nav img{
+    
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    width: 60px;
+}
+
+
+
+ul{
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 25pt;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+li a{
+   list-style: none;
+   text-decoration: none;
+}
+
+li:hover{
+    color: #554646;
+    cursor: pointer;
+}
+
+p{
+    padding-top: 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: justify;
+    width: 60%;
+    font-size: 25pt;
+}
+
+h1{
+    padding-top: 50px;
+    font-size: 40pt;
+    text-align: center;
+}
+
+a{
+    color: inherit;
+    display: block;
+    padding: 10px 10px 0 10px;
+}
+
+main #brasil{
+    display: flex;
+    margin: 0 auto;
+}
+
+
+/*TABELA - TIPOS*/
+table{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+td{
+    width: 50%;
+}
+
+td img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+table p{
+    font-size: 30pt;
+}
+
+table h2{
+    font-size: 40pt;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
